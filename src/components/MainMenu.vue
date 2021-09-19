@@ -10,7 +10,7 @@
         ><router-link to="/booking">Booking</router-link></el-menu-item
       >
       <el-menu-item index="2"
-        ><router-link to="/prepour">Pre Pour</router-link></el-menu-item
+        ><router-link to="/concrete">Concrete</router-link></el-menu-item
       ><el-menu-item index="3"
         ><router-link to="/postpour">Post Pour</router-link></el-menu-item
       >

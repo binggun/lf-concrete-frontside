@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
-import Login from "../views/Login.vue";
-import Booking from "../views/Booking.vue";
-import User from "../views/User/User.vue";
-import Home from "../views/Home.vue";
-
+import Login from "@/views/Login.vue";
+import Booking from "@/views/Booking.vue";
+import User from "@/views/User/User.vue";
+import Home from "@/views/Home.vue";
+import Concrete from "@/views/Concrete/Concrete.vue";
+import ConcreteDetial from "@/views/ConcreteDetial/ConcreteDetial.vue";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
@@ -37,6 +38,24 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       requireAuth: true,
       title: "User",
+    },
+  },
+  {
+    path: "/concrete",
+    name: "Concrete",
+    component: Concrete,
+    meta: {
+      requireAuth: true,
+      title: "Concrete",
+    },
+  },
+  {
+    path: "/concrete/:id",
+    name: "Concrete detail",
+    component: ConcreteDetial,
+    meta: {
+      requireAuth: true,
+      title: "Concrete Detail",
     },
   },
 ];

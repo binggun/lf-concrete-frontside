@@ -44,8 +44,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import UserDataService from "@/service/UserData.service";
-import { User } from "@/types/User";
-import ResponseData from "@/types/ResponseData";
+import { User } from "@/types/User.interface";
+import ResponseData from "@/types/ResponseData.interface";
 import NewUser from "@/views/User/components/NewUserDialog.vue";
 import EditUser from "@/views/User/components/EditUserDialog.vue";
 import { AxiosError } from "axios";

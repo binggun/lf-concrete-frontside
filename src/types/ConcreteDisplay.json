@@ -1,0 +1,24 @@
+{
+  "test": "500",
+  "ConcreteBookingDetails": [
+    { "label": "Index", "key": "bookingID" },
+    { "label": "Site", "key": "site" },
+    { "label": "Booking Date", "key": "bookingDate" },
+    { "label": "Require Date", "key": "requireDate" },
+    { "label": "Time", "key": "time" },
+    { "label": "Concrete Type", "key": "concreteType" },
+    { "label": "Location", "key": "location" },
+    { "label": "Supplier", "key": "supplier" },
+    { "label": "Order Quantity", "key": "orderedQuantity" },
+    { "label": "Curing", "key": "curing" },
+    { "label": "Slump", "key": "slump" },
+    { "label": "Additives", "key": "additives" },
+    { "label": "Interval", "key": "interval" },
+    { "label": "Test", "key": "test" },
+    { "label": "Placer", "key": "placer" },
+    { "label": "Pump Supplier", "key": "pumpSupplier" },
+    { "label": "Hose Length", "key": "hoseLength" },
+    { "label": "Order Number", "key": "orderNumber" },
+    { "label": "Note", "key": "note" }
+  ]
+}

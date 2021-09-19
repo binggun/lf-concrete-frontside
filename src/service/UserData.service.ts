@@ -1,5 +1,5 @@
 import http from "@/http-common";
-import { User, UserProperties } from "@/types/User";
+import { User, UserProperties } from "@/types/User.interface";
 import FormData from "form-data";
 
 class UserDataServices {

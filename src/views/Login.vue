@@ -20,7 +20,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import UserDataService from "@/service/UserData.service";
-import ResponseData from "@/types/ResponseData";
+import ResponseData from "@/types/ResponseData.interface";
 import { useStore } from "@/store/auth";
 
 export default defineComponent({

@@ -61,9 +61,9 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import { User, UserProperties } from "@/types/User";
+import { User, UserProperties } from "@/types/User.interface";
 import UserDataService from "@/service/UserData.service";
-import ResponseData from "@/types/ResponseData";
+import ResponseData from "@/types/ResponseData.interface";
 import { ElForm } from "element-plus";
 import { ElMessage } from "element-plus";
 import axios, { AxiosError } from "axios";
